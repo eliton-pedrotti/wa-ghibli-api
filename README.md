@@ -15,6 +15,6 @@ npm run start
 3. Fluxo:
 
 - Primeiramente é necessário sincronizar a base de dados com os dados da api Studios Ghibli, entao é preciso chamar o endpoint ``` POST /synchronize ```.
-- Finalizado o passo acima, pode ser efetuado a chama ao endpoint ``` GET /films```, passando parametros de limit e offset ou não.
+- Finalizado o passo acima, pode ser efetuado a chamada ao endpoint ``` GET /films```, passando parametros de limit e offset ou não.
 - Software utilizado para efetuar as chamadas [postman](https://www.postman.com/)
 OBS: Não foi utilizado nenhuma lib externa, apenas o sqlite3, para fazer conexão com o nosso database.
