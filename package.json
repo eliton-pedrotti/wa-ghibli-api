@@ -1,0 +1,23 @@
+{
+  "name": "wa-ghibli-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm i && npm run build && node --loader ts-node/esm ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/sqlite3": "^3.1.8",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@types/typescript": "^2.0.0",
+    "sqlite3": "^5.1.2",
+    "ts-node": "^10.9.1"
+  }
+}
